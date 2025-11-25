@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { SERVICES, CATEGORIES } from './constants';
-import { ServiceCard } from './components/ServiceCard';
+import { ServiceCard } from './ServiceCard';
 import { CategoryType, Service } from './types';
 import { Search, Moon, Sun, Filter, X } from 'lucide-react';
 
