@@ -36,7 +36,6 @@ To run this project locally, follow these steps:
 1.  **Clone the repository** (or download the source code):
     ```bash
     git clone <repository-url>
-    cd ai-services-directory
     ```
 
 2.  **Install dependencies**:
