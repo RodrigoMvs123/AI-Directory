@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Services Directory</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Merriweather', 'serif'],
+            },
+            colors: {
+              claude: {
+                bg: '#F5F5F3',
+                card: '#FFFFFF',
+                text: '#3F3F3F',
+                border: '#E5E5E5',
+                accent: '#D97757', // A warm terracotta accent often associated with AI branding
+              },
+              dark: {
+                bg: '#191919',
+                card: '#232323',
+                text: '#E5E5E5',
+                border: '#333333',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-claude-bg text-claude-text dark:bg-dark-bg dark:text-dark-text font-sans antialiased selection:bg-claude-accent selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
