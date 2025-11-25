@@ -2,6 +2,9 @@
 
 A modern, minimalist web application serving as a comprehensive directory for AI coding agents, IDE extensions, and related services. Designed with a clean interface inspired by Claude, it features real-time search, category filtering, and dark mode support.
 
+## The website is live at
+- https://ai-directory-cxel.onrender.com/
+
 ## Features
 
 - **Service Directory**: Curated list of AI tools categorized by type (CLI Agents, IDE Extensions, Web Apps, etc.).
